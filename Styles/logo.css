@@ -1,0 +1,46 @@
+
+.inter-fonts {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  color: #4E47FF;
+  
+}
+
+.raleway-fonts {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.nav-logo{
+    font-weight: 800;
+    font-size: 34px;
+}
+
+.nav-bar{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+.sign-button{
+    font-size: 16px;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 36px;
+    color: white;
+
+}
+div {
+    text-align: center;
+    
+}
+header{
+    background-image:url();
+}
+
