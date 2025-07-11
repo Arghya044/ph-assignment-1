@@ -8,6 +8,15 @@
   
 }
 
+.background-color{
+    background-color: #f5f7ff;
+} 
+
+.primay-button:hover{
+    background-color: #05f4b4;
+}
+
+
 
 /* .raleway-fonts {
   font-family: "Raleway", sans-serif;
@@ -190,7 +199,7 @@ div {
     padding: 30px;
     border-radius: 14px;
     /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); */
-    border: 2px solid #1a3d88;
+    border: 2px solid white;
 }
 
 .review-stars {
@@ -220,6 +229,7 @@ div {
     color: #1E1E1E;
     margin-bottom: 20px;
     line-height: 1.5;
+    text-align: left;
 }
 
 .reviewer-info {
@@ -254,6 +264,7 @@ div {
     font-size: 16px;
     color: #B3B3B3;
     margin: 0;
+text-align: left;
 }
 
 
