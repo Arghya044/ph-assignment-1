@@ -112,12 +112,12 @@ div {
 
 /* User */
 
-.user {
+.users {
     background-color: #e5e7ff;
     border-radius: 24px;
     margin: 100px 141px 100px 159px;
     padding: 80px 100px;
-    margin-bottom: ;
+    
 }
 .user-container {
     text-align: center;
