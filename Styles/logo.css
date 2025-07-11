@@ -8,6 +8,7 @@
   
 }
 
+
 /* .raleway-fonts {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -15,7 +16,7 @@
   font-style: normal; */
   
   
-}
+
 .heading{
     max-width: 900px;
     text-align: center;
@@ -40,7 +41,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    margin: 0 150px;
 }
 .primay-button{
     font-size: 16px;
@@ -49,18 +50,18 @@
     border-radius: 5px;
     padding: 12px 36px;
     color: white;
+    
 
 }
+
 div {
     text-align: center;
     
 }
-header{
+.background-header{
     background-image:url('../Assets/Hero-bg.png');
     width: 100%;
-    height: 710px;
-    margin-top: none;
-
+    height: 900px;
 }
 .heading{
     margin: 250px 260px;
@@ -109,6 +110,28 @@ header{
 
 /* User */
 
+.user {
+    background-color: #e5e7ff;
+    border-radius: 24px;
+    margin: 100px 141px 100px 159px;
+    padding: 80px 100px;
+    margin-bottom: ;
+}
+.user-container {
+    text-align: center;
+    padding: 50px 142px;
+    
+}
+
+
+.user-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 38px;
+    color: #000000;
+    margin-bottom: 60px;
+}
+
 
 .user-Productive{
     display: flex;
@@ -135,6 +158,194 @@ header{
     font-weight: 400;
     font-size: 20px;
     color: #000000;
+}
+
+/* Reviews section styles */
+.reviews {
+    padding: 100px;
+    margin: 100px 141px 100px 159px;
+}
+
+.reviews-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 42px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.review-card {
+    width: 366px;
+    height: 243px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 14px;
+    /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08); */
+    border: 2px solid #1a3d88;
+}
+
+.review-stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 20px;
+}
+
+.review-stars img {
+    width: 16px;
+    height: 16px;
+}
+
+.review-heading {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.review-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #1E1E1E;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.reviewer-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.reviewer-details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.reviewer-name {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #757575;
+    margin: 0;
+}
+
+.reviewer-date {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B3B3B3;
+    margin: 0;
+}
+
+
+/* Contact section styles */
+
+.contact {
+    margin: 90px auto 14px auto; 
+    width: 1140px;
+    height: 632px;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 400px;
+    gap: 80px;
+    align-items: center;
+    height: 100%;
+}
+
+.contact-title-section {
+    line-height: 0.9;
+    text-align: left;
+}
+
+.contact-title {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 97px;
+    color: #000;
+    margin: 0;
+    line-height: 0.9;
+}
+
+.contact-form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.form-label {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 16px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    box-sizing: border-box;
+
+}
+
+.form-input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form-textarea {
+    width: 100%;
+    padding: 16px 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #000;
+    background-color: white;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.form-textarea::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.contact-form .primay-button {
+    width: 100%;
+    font-weight: 700;
+    margin-top: 20px;
+    
+}
+.group{
+    text-align: left;
 }
 
 

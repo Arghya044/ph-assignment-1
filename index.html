@@ -12,11 +12,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Styles/logo.css">
 </head>
-<body>
-    <header>
+<body class="background-color" >
+    <header class="background-header" >
+       
         <section >
             <nav class="nav-bar">
-                <h4 class="inter-fonts nav-logo">LOGO</h4>
+                <h4 class="inter-fonts nav-logo">Arghya</h4>
                 <button class="primay-button">Sign Up</button>
             </nav>
             <div class="heading"> 
@@ -27,15 +28,18 @@
             
 
         </section>
+    </header>
+
+        <main>
         <section class="action">
             <div class="action-content">
                 <h3 class="action-title"> See It in Action</h3>
                 <p class="action-description">Explore the live preview and imagine your brand in this bold new look.</p>
                 <button class="primay-button action-button">Launch Live Preview</button>
             </div>
-            <div class="action-picture "><img src="Assets/wc-mini.png" alt=""></div>
+            <div class="action-picture "><img src="Assets/wc-mini.png" alt=" "></div>
         </section>
-        <section class="User">
+        <section class="Users">
             <div class="user-container">
                 <h2 class="user-title">Joined Thousands of Productive Users</h2>
                 <div class="user-Productive">
@@ -57,14 +61,102 @@
 
         </section>
 
-    </header>
-    <main>
+        <section class="reviews">
+    <h3 class="reviews-title">What our users say</h3>
+    <div class="reviews-container">
+        <div class="review-card">
+            <div class="review-stars">
+                <img src="Assets/icon-star.png" alt="star">
+                <img src="Assets/icon-star.png" alt="star">
+                <img src="Assets/icon-star.png" alt="star">
+                <img src="Assets/icon-star.png" alt="star">
+                <img src="Assets/icon-star.png" alt="star">
+            </div>
+            <h4 class="review-heading">Loved by Designers</h4>
+            <p class="review-text">This template instantly leveled up our presence." – Studio Vertex</p>
+            <div class="reviewer-info">
+                <img src="Assets/avatar.png" alt="reviewer" class="reviewer-avatar">
+                <div class="reviewer-details">
+                    <p class="reviewer-name">Reviewer name</p>
+                    <p class="reviewer-date">Date</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="review-card">
+            <div class="review-stars">
+                <img src="Assets/icon-star.png" alt="star">
+                <img src="Assets/icon-star.png" alt="star">
+                <img src="Assets/icon-star.png" alt="star">
+                <img src="Assets/icon-star.png" alt="star">
+                <img src="Assets/icon-star.png" alt="star">
+            </div>
+            <h4 class="review-heading">Loved by Designers</h4>
+            <p class="review-text">This template instantly leveled up our presence." – Studio Vertex</p>
+            <div class="reviewer-info">
+                <img src="Assets/avatar.png" alt="reviewer" class="reviewer-avatar">
+                <div class="reviewer-details">
+                    <p class="reviewer-name">Reviewer name</p>
+                    <p class="reviewer-date">Date</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="review-card">
+            <div class="review-stars">
+                <img src="Assets/icon-star.png" alt="star">
+                <img src="Assets/icon-star.png" alt="star">
+                <img src="Assets/icon-star.png" alt="star">
+                <img src="Assets/icon-star.png" alt="star">
+                <img src="Assets/icon-star.png" alt="star">
+            </div>
+            <h4 class="review-heading">Loved by Designers</h4>
+            <p class="review-text">This template instantly leveled up our presence." – Studio Vertex</p>
+            <div class="reviewer-info">
+                <img src="Assets/avatar.png" alt="reviewer" class="reviewer-avatar">
+                <div class="reviewer-details">
+                    <p class="reviewer-name">Reviewer name</p>
+                    <p class="reviewer-date">Date</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="contact">
+    <div class="contact-container">
+        <div class="contact-title-section">
+            <h2 class="contact-title">Let's Get in</h2>
+            <h2 class="contact-title">Touch</h2>
+        </div>
+        <form class="contact-form">
+            <div class="form-group group" >
+                <label for="email" class="form-label">Email</label>
+                <input type="email" id="email" class="form-input" placeholder="example@email.com">
+            </div>
+            <div class="form-group group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" id="name" class="form-input" placeholder="full name">
+            </div>
+            <div class="form-group group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" class="form-textarea" rows="5" cols="50" placeholder="write your message..."></textarea>
+            </div>
+            <button type="submit" class="primay-button">Get in Touch</button>
+        </form>
+    </div>
+</section>
+
+   
+    
 
     </main>
-    <footer>
+    
 
-    </footer>
+
+
 
     
 </body>
+
 </html>
